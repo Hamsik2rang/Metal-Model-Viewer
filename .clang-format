@@ -1,0 +1,42 @@
+---
+BasedOnStyle: Microsoft
+ColumnLimit: 0
+IndentWidth: 4
+AlignAfterOpenBracket: BlockIndent
+AlignEscapedNewlines: Left
+AlignOperands: "true"
+AllowShortBlocksOnASingleLine: Always
+AllowShortCaseLabelsOnASingleLine: "true"
+AllowShortFunctionsOnASingleLine: All
+AllowShortLoopsOnASingleLine: "true"
+AllowShortEnumsOnASingleLine: "true"
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortLambdasOnASingleLine: "true"
+Cpp11BracedListStyle: "true"
+ObjCSpaceAfterProperty: "true"
+PointerAlignment: Left
+SortIncludes: Never
+IndentAccessModifiers: "false"
+AccessModifierOffset: -4
+IndentCaseBlocks: "false"
+IndentCaseLabels: true
+IndentGotoLabels: false
+IndentPPDirectives: BeforeHash
+PackConstructorInitializers: Never
+BreakConstructorInitializers: BeforeComma
+BreakBeforeBraces: Custom
+BraceWrapping:
+  SplitEmptyFunction: false
+  AfterUnion: true
+  AfterCaseLabel: true
+AlignConsecutiveShortCaseStatements:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+  AlignCaseColons: false
+AlignConsecutiveAssignments:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: true
+AlignConsecutiveDeclarations: true
+AlignConsecutiveMacros: true
